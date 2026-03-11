@@ -222,7 +222,7 @@ export default function App() {
           >
             <iframe 
               className="w-full h-full"
-              src="https://www.youtube.com/watch?v=UnKW1ZsfHk8" // Placeholder Video
+              src="https://www.youtube.com/embed/UnKW1ZsfHk8" // Placeholder Video
               title="DXN Opportunity"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -454,7 +454,7 @@ export default function App() {
                     <div className="aspect-video bg-black rounded-2xl overflow-hidden">
                       <iframe 
                         className="w-full h-full"
-                        src="https://www.youtube.com/watch?v=Snq1C8EHPYo"
+                        src="https://www.youtube.com/embed/Snq1C8EHPYo"
                         title="DXN Explanation"
                       ></iframe>
                     </div>
