@@ -124,7 +124,7 @@ export default function App() {
     const data = Object.fromEntries(formData.entries());
 
     // EmailJS Integration Placeholder
-    // emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', data, 'YOUR_PUBLIC_KEY')
+     emailjs.send('service_x5b588t', 'template_fp5s8az', data, 'fBtjEMu8f1TbeAsuE')
     console.log('Registration Data:', data);
     alert('تم إرسال طلبك بنجاح! سنتواصل معك قريباً.');
     setIsRegModalOpen(false);
@@ -326,7 +326,7 @@ export default function App() {
                 onClick={() => setIsRegModalOpen(true)}
                 className="bg-white text-emerald-900 px-10 py-4 rounded-full font-black text-xl hover:scale-105 transition-transform shadow-lg"
               >
-                ابدأ العمل معنا
+                التسجيل للعمل معنا الان  
               </button>
             </div>
           </div>
@@ -553,7 +553,7 @@ export default function App() {
                 <div className="w-20 h-20 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-6">
                   <DollarSign className="w-10 h-10" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2">سحب حوافز البقاء</h3>
+                <h3 className="text-2xl font-bold mb-2"> سحب حافز البقاء داخل الموقع    </h3>
                 <p className="text-gray-600 mb-8">رصيدك الحالي هو <span className="font-bold text-amber-600">{earnings} دولار</span>. هل ترغب في طلب سحب الأرباح الآن؟</p>
                 
                 <div className="space-y-3">
@@ -571,7 +571,7 @@ export default function App() {
                     إلغاء
                   </button>
                 </div>
-                <p className="mt-4 text-xs text-gray-400">سيتم تصفير العداد عند طلب السحب.</p>
+                <p className="mt-4 text-xs text-gray-400">عند البقاء داخل الموقع لوقت طويل سوف تحصل على 1$ كل ساعة بقاء          .</p>
               </div>
             </motion.div>
           </div>
