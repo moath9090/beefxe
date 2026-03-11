@@ -222,7 +222,7 @@ export default function App() {
           >
             <iframe 
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder Video
+              src="https://www.youtube.com/watch?v=UnKW1ZsfHk8" // Placeholder Video
               title="DXN Opportunity"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -335,7 +335,7 @@ export default function App() {
         {/* --- Section 5: Contact --- */}
         <section className="max-w-4xl mx-auto mb-24 grid grid-cols-1 sm:grid-cols-2 gap-6">
           <a 
-            href="https://wa.me/YOUR_PHONE" 
+            href="https://chat.whatsapp.com/HACHPkUNWxPK926WsX1MVP?mode=gi_t" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-[#25D366] text-white p-6 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity"
@@ -344,7 +344,7 @@ export default function App() {
             انضم لجروب الواتساب
           </a>
           <a 
-            href="https://wa.me/YOUR_ADMIN_PHONE" 
+            href="https://wa.me/+9647706146529" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-gray-900 text-white p-6 rounded-2xl font-bold text-lg hover:opacity-90 transition-opacity"
@@ -454,7 +454,7 @@ export default function App() {
                     <div className="aspect-video bg-black rounded-2xl overflow-hidden">
                       <iframe 
                         className="w-full h-full"
-                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        src="https://www.youtube.com/watch?v=Snq1C8EHPYo"
                         title="DXN Explanation"
                       ></iframe>
                     </div>
